@@ -1,6 +1,7 @@
 # Define a list of names
-name = ["Harry", "Ron", "Ricardo", "Nhaan"]
+names = ["Harry", "Ron", "Ricardo", "Nhaan"]
 
-name.append("Draco")
+names.append("Draco")
 
-print(name)
+names.sort()
+print(names)
