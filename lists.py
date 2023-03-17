@@ -2,6 +2,6 @@
 names = ["Harry", "Ron", "Ricardo", "Nhaan"]
 
 names.append("Draco")
-
 names.sort()
+
 print(names)
