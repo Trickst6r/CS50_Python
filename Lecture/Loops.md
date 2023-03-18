@@ -49,6 +49,7 @@
                 . start: là giá trị bắt đầu của phần tử. Khi tham số này được bỏ trống nó sẽ có giá trị mặc định là 0.
                 . stop: là giá trị kết thúc của phần tử. Tuy nhiên, cũng giống như phép cắt danh sách hay cắt chuôi, ta sẽ không bao hàm phần tử stop trong kết quả được sinh ra (giữ đầu bỏ cuối).
                 . step_size: mặc định là 1 nếu không được truyền giá trị. Đây là bước nhảy hay khoảng cách giữa các giá trị liên tiếp, ví dụ nếu stepsize = 1 (mặc định) thì ta sẽ có các giá trị 0,1,2,3,4, nếu stepsize = 2 thì là 0,2,4,6.
+                . range: lấy các số trong phạm vi chỉ định.
 
 
         -> VD2 :
