@@ -49,3 +49,65 @@
                 . start: là giá trị bắt đầu của phần tử. Khi tham số này được bỏ trống nó sẽ có giá trị mặc định là 0.
                 . stop: là giá trị kết thúc của phần tử. Tuy nhiên, cũng giống như phép cắt danh sách hay cắt chuôi, ta sẽ không bao hàm phần tử stop trong kết quả được sinh ra (giữ đầu bỏ cuối).
                 . step_size: mặc định là 1 nếu không được truyền giá trị. Đây là bước nhảy hay khoảng cách giữa các giá trị liên tiếp, ví dụ nếu stepsize = 1 (mặc định) thì ta sẽ có các giá trị 0,1,2,3,4, nếu stepsize = 2 thì là 0,2,4,6.
+
+
+        -> VD2 :
+
+            for x in range(4):
+                print(x)
+
+> Chú ý rằng: range(4) không phải cá giá trị 0 đén 4 mà là các giá trị từ 0 đến 3 (quy tấc: Giữ đầu bỏ cuối).
+
+        -> VD3. Thêm tham số start vào hàm range():
+
+            for x in range(1,4):
+                print(x)
+
+            # 1
+            # 2
+            # 3
+
+        -> VD4. Khi chúng ta chỉ định step_size, các giá trị sẽ được lặp theo khoảng cách bằng khoảng giá trị:
+
+            for x in range(2, 20, 3):
+                print(x)
+
+            # 2
+            # 5
+            # 8
+            # 11
+            # 14
+            # 17
+
+# 3. Vòng lặp for sử dụng câu lệnh else.
+
+    - Vòng lặp for cũng có thể có một khối else tuỳ chọn. Đoạn mã trong khối else sẽ được thực thi nếu các phần tử trong chuỗi được sử dụng trong vòng lặp for không còn.
+
+        -> VD5 :
+
+            for i in rang(0, 5):
+                print(i)
+            else:
+                print("Không còn phần tử")
+
+            => Trong đó: Vòng lặp for sẽ in ra các giá trị từ 0 -> 4 cho đến khi vòng lặp kết thúc. Khi vòng lặp for kết thúc, nó thực thi đoạn mã câu lệnh else.
+
+# 4. Vòng lặp for lồng nhau:
+
+    - Ta có thể thực hiện vòng lặp for lồng nhau, tức là đặt một vòng lặp for bên trong một vòng lặp for khác.
+
+        -> VD6:
+
+            for i in range(3):
+                for j in range(2):
+                    print(i,j)
+
+            # Kết quả:
+                0 0
+                0 1
+                1 0
+                1 1
+                2 0
+                2 1
+
+> Tuy nhiên, việc sử dụng nhiều vòng lặp for lồng nhau sẽ có thể gây ra sự phức tạp cho chương trình. Do đó, ta có thể tranh sử dụng nhiều vòng lăp lồng nhau để giảm bớt sự phức tạp nếu không cần thiết, trừ trường hợp bắt buộc
