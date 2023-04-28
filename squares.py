@@ -1,7 +1,9 @@
 # Import function from other Python modules or files
+# Import function
 from functions import square
 
-# Import the whole function, then assign it to the square to access to the function
+# Import the whole function, then assign it to
+# the square to access to the function
 # import functions
 
 # for i in range(10):
