@@ -1,5 +1,5 @@
 # Khi chạy chương trình, vòng lặp sẽ đi từng phần tử và
-# tới mỗi phần tử thì sẽ gọi lại i
+# tới mỗi phần tử thì sẽ gọi lại i.
 # for i in [0, 1, 2, 3, 4, 5]:
 #     print(i)
 
@@ -14,7 +14,7 @@ names = ["Harry", "Ricardo", "Milos"]
 for name in names:
     print(name)
 
-# Lặp lại từng ký tự trong string:
+# Lặp lại từng ký tự  trong string:
 name = "Ricardo Milos"
 
 for character in name:
