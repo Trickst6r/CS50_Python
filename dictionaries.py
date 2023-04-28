@@ -4,4 +4,4 @@ houses = {"Ricardo": "Slytherin", "Milos": "Dragon"}
 houses["Hermione"] = "Slytherin"
 
 # Lấy giá trị (value) của phần tử sử dụng khoá (key) đặt trong cặp dấu []
-print(houses["Ricardo"])
+print(houses["Hermione"])
