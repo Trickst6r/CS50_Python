@@ -17,7 +17,7 @@ class Flight:
         self.passengers = []
 
     def add_passenger(self, name):
-        # If no open seats avalable,
+        # If no open seats available,
         # return False to indicate there are no open seats
         if not self.open_seats():
             return False
