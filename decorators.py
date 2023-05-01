@@ -1,5 +1,5 @@
 # Decorator is going to be a function that takes a function of input
-# and returns a modified version of that input as output
+# and returns a modified version of that input as output.
 
 
 # Create a function that modifies another function
